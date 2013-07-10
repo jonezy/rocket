@@ -1,0 +1,22 @@
+{
+  "name": "rocket",
+  "version": "0.0.0",
+  "description": "node library to access ttc data",
+  "main": "lib/rocket.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -w -R nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jonezy/rocket.git"
+  },
+  "author": "Chris Jones <chris@jonezy.org>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jonezy/rocket/issues"
+  }
+}
