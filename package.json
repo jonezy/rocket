@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha -w -R nyan"
+    "test": "mocha -W -R nyan"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,14 @@
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/jonezy/rocket/issues"
+  },
+  "dependencies": {
+    "commander": "~1.3.0",
+    "async": "~0.2.9",
+    "fs-extra": "~0.6.3"
+  },
+  "devDependencies": {
+    "mocha":"~1.12.0",
+    "should":""
   }
 }
