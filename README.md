@@ -16,3 +16,14 @@ and guess what.  It returned the same data but in json format!
 
 Anyways, rocket is a wrapper to that data that makes it really easy to
 acceess it.  Hope you dig it.
+
+# rocket cli
+
+One of the things missing from the nextbus data is an end point with all the stops and there longitude + latitude.  
+This would obviously be a great thing to have if you wanted to say, show a user a list of stops that are close to them.
+
+This functionality is included in rocket.  Simply type:
+
+    rocket run
+
+and a file will be saved to `./out/all.json` that contains all the routes + stops for the ttc with there lon + lat.
